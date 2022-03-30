@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Invitación de boda</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cookie&family=Lora&family=Roboto&display=swap" rel="stylesheet">
+
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    <header class="h-auto relative bg-cover" style="background-image: url(./img/c&n.jpg)">
+        <div class="absolute h-full w-full left-0 bg-rose-300 bg-opacity-40"></div>
+
+        <div class="relative h-full flex justify-center py-40 sm:py-96">
+            <div class="max-w-5xl">
+                <h1 class="font-cookie
+                    text-white 
+                    text-6xl 
+                    sm:text-4xl 
+                    md:text-5xl 
+                    lg:text-6xl 
+                    leading-snug
+                    font-extrabold"
+                >
+                    Ceci & Oscar
+                </h1>
+            </div>
+        </div>
+    </header>
+
+    <section class="my-6">
+        <h2 class="text-gray-500 text-center text-2xl sm:text-4xl font-bold">¡NOS CASAMOS!</h2>
+        <h3 class="mt-2 text-gray-500 text-center text-sm sm:text-2xl tracking-widest font-lora">
+            y tenemos el honor de invitarles a celebrar nuestra boda eclesiástica
+        </h3>
+    </section>
+
+    <section class="bg-rose-400 h-auto p-4 text-white">
+        <div class="border-2 border-white md:max-w-6xl md:mx-auto">
+            <div class="p-4 text-center flex flex-col justify-center items-center space-y-6">
+                <h3 class="text-xl">Reserva la fecha</h3>
+                <p class="text-2xl font-extrabold">26 NOVIEMBRE 2022</p>
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-16 w-16" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" />
+                </svg>
+            </div>
+        </div>
+
+        <div class="grid grid-cols-4 mt-8 md:max-w-6xl md:mx-auto">
+            <div class="flex flex-col items-center justify-center">
+                <h3 id="days" class="text-3xl font-extrabold"></h3>
+                <span class="font-lora text-sm">Día</span>
+            </div>
+
+            <div class="flex flex-col items-center justify-center">
+                <h3 id="hours" class="text-3xl font-extrabold"></h3>
+                <span class="font-lora text-sm">Hrs</span>
+            </div>
+
+            <div class="flex flex-col items-center justify-center">
+                <h3 id="minutes" class="text-3xl font-extrabold"></h3>
+                <span class="font-lora text-sm">Min</span>
+            </div>
+
+            <div class="flex flex-col items-center justify-center">
+                <h3 id="seconds" class="text-3xl font-extrabold"></h3>
+                <span class="font-lora text-sm">Seg</span>
+            </div>
+        </div>
+    </section>
+
+    <section class="my-2">
+        <img class="w-full h-full md:h-64 object-cover object-center" src="./img/anillos.jpeg" alt="Anillos">
+
+        <div class="m-2 bg-rose-400 p-2">
+            <h3 class="text-3xl text-uppercase text-white font-lora text-center">La ceremonia</h3>
+        </div>
+
+        <div class="mt-4 p-2 flex flex-col items-center space-y-6">
+            <img class="w-32" src="./img/wedding-rings-jewel-svgrepo-com.svg" alt="Ceremonia">
+
+            <p class="text-gray-600 text-xl font-semibold">Parroquia del perpetuo socorro</p>
+            <p class="text-sm font-lora text-center">P.º de la Revolución 37, Emiliano Zapata, Amanecer Tarasco, 60180 Uruapan, Mich.</p>
+            <p class="text-lg font-bold text-rose-400">5:00 p.m.</p>
+
+            <iframe class="w-full" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1881.7338626592366!2d-102.05645463482485!3d19.392186859443207!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x842de306eee8c94b%3A0xa4e69e9a7759458b!2sParroquia%20Del%20Perpetuo%20Socorro!5e0!3m2!1ses-419!2smx!4v1648654118174!5m2!1ses-419!2smx" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        
+            <span class="border-b-4 border-rose-400 mx-auto">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+        </div>
+    </section>
+    
+    <section class="mt-8 mb-2">
+        <div class="m-2 bg-rose-400 p-2">
+            <h3 class="text-3xl text-uppercase text-white font-lora text-center">Recepción</h3>
+        </div>
+
+        <div class="mt-4 p-2 flex flex-col items-center space-y-6">
+            <img class="w-32" src="./img/wine-cup-svgrepo-com.svg" alt="Recepción">
+
+            <p class="text-gray-600 text-xl font-semibold">Salón Terraza Dorada</p>
+            <p class="text-sm font-lora text-center">De Las Rosas 305, Popular Campestre, 60100 Uruapan, Mich.</p>
+            <p class="text-lg font-bold text-rose-400">7:00 p.m.</p>
+
+            <iframe class="w-full" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1881.2715620473925!2d-102.03199346987476!3d19.432136556532974!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x842de236980e80a3%3A0x78336ade85c59d8e!2sTerraza%20Dorada!5e0!3m2!1ses-419!2smx!4v1648654899383!5m2!1ses-419!2smx" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+    </section>
+
+    
+    <footer class="bg-rose-400 h-auto p-4">
+        <p class="font-lora italic text-white text-sm text-center">"El amor no se busca, el amor se encuentra. Y yo te encontré a ti"</p>
+    </footer>
+
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        'sans': 'Roboto, Arial, sans-serif',
+                        'lora': 'Lora, serif',
+                        'cookie': 'Cookie, cursive',
+                    }
+                }
+            }
+        }
+
+        const DATE_TARGET = new Date('11/26/2022 5:00 PM');
+
+        // DOM for render
+        const SPAN_DAYS = document.querySelector('h3#days');
+        const SPAN_HOURS = document.querySelector('h3#hours');
+        const SPAN_MINUTES = document.querySelector('h3#minutes');
+        const SPAN_SECONDS = document.querySelector('h3#seconds');
+
+        // Milliseconds for the calculations
+        const MILLISECONDS_OF_A_SECOND = 1000;
+        const MILLISECONDS_OF_A_MINUTE = MILLISECONDS_OF_A_SECOND * 60;
+        const MILLISECONDS_OF_A_HOUR = MILLISECONDS_OF_A_MINUTE * 60;
+        const MILLISECONDS_OF_A_DAY = MILLISECONDS_OF_A_HOUR * 24;
+
+        function updateCountdown() {
+            // Calcs
+            const NOW = new Date()
+            const DURATION = DATE_TARGET - NOW;
+            const REMAINING_DAYS = Math.floor(DURATION / MILLISECONDS_OF_A_DAY);
+            const REMAINING_HOURS = Math.floor((DURATION % MILLISECONDS_OF_A_DAY) / MILLISECONDS_OF_A_HOUR);
+            const REMAINING_MINUTES = Math.floor((DURATION % MILLISECONDS_OF_A_HOUR) / MILLISECONDS_OF_A_MINUTE);
+            const REMAINING_SECONDS = Math.floor((DURATION % MILLISECONDS_OF_A_MINUTE) / MILLISECONDS_OF_A_SECOND);
+
+            // Render
+            SPAN_DAYS.textContent = REMAINING_DAYS;
+            SPAN_HOURS.textContent = REMAINING_HOURS;
+            SPAN_MINUTES.textContent = REMAINING_MINUTES;
+            SPAN_SECONDS.textContent = REMAINING_SECONDS;
+        }
+
+        updateCountdown();
+
+        setInterval(updateCountdown, MILLISECONDS_OF_A_SECOND);
+    </script>
+</body>
+</html>
